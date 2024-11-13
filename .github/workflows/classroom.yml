@@ -1,5 +1,8 @@
+# Para los que se le dañe el achivo classroom.yml
 name: Autograding Tests
-'on': {}
+'on':
+- push
+- repository_dispatch
 permissions:
   checks: write
   actions: read
